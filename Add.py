@@ -7,7 +7,7 @@ def add_asset(assets, category, name, owner):
     if assets:
         # 提取已有ID号中的数字部分
         last_id = max([int(asset["id"][4:]) for asset in assets if "id" in asset]) #列表推导式
-        next_id = f"XXXY{last_id + 4:04d}"
+        next_id = f"XXXY{last_id + 1:04d}"
     else:
         next_id = "XXXY0001"
     asset = {
