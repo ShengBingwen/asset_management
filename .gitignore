@@ -1,0 +1,47 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# =========================
+# Node / Vue
+# =========================
+node_modules/
+dist/
+.cache/
+*.log
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+.history/
+*.code-workspace
+
+# =========================
+# System files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Environment / Config
+# =========================
+.env
+*.local
+
+# =========================
+# 其他
+# =========================
+frontend/public/favicon.ico
